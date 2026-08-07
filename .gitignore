@@ -1,0 +1,66 @@
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Archives and support bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Firmware, ROM and hardware dumps
+*.bin
+*.rom
+*.fd
+*.cap
+*.dump
+*.img
+*.iso
+*.eeprom
+*.nvm
+
+# Build outputs
+build/
+dist/
+out/
+*.o
+*.a
+*.so
+*.ko
+*.mod
+*.mod.c
+*.cmd
+Module.symvers
+modules.order
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+private/
+
+# Locally collected profiles and reports
+collected/
+captures/
+support-bundles/
